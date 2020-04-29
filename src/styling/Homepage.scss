@@ -101,7 +101,30 @@
     background-color: #46327b;
   }
 }
+.profile {
+  &__Title {
+    margin: 0 0 20px;
+    padding: 16px;
+    border-bottom: black thin solid;
+  }
+  &__Section {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    img {
+      padding: 20px;
+    }
+  }
+  &__BtnContainer {
+    display: flex;
+    justify-content: center;
+  }
 
+  &__Btn {
+    justify-self: center;
+    background-color: #4fb1de;
+  }
+}
 .homepage {
   margin: 0 10%;
 }
