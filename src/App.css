@@ -1,0 +1,20 @@
+.App {
+  /* font-family: Muli; */
+  color: #4a4a4a;
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 10px;
+  color: #ffffff;
+  height: 54px;
+  width: 168px;
+}
+button:hover {
+  opacity: 0.25;
+}
+
+h3 {
+  line-height: 30px;
+  margin: 0;
+}
