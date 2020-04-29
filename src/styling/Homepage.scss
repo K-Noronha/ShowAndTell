@@ -39,6 +39,24 @@
   }
 }
 
+.upload{
+  &__Title{
+    display: flex;
+  }
+  &__Option{
+    display: flex;
+    &--btn{
+      background-color: #46327B;
+      margin: 30px 20px;
+      width: 168px;
+      height: 54px;
+    }
+  }
+  &__Bttn{
+    background-color: #46327B;
+  }
+}
+
 .homepage {
   margin: 0 10%;
 }
