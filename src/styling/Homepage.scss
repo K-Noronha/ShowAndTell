@@ -1,4 +1,6 @@
+
 .activityList {
+  margin: 0px 30px;
   &__title {
     display: flex;
     justify-self: space-between;
@@ -11,7 +13,22 @@
 
 .activity {
   &__image {
+    margin: 0px;
     width: 315px;
     height: 215px;
+  }
+}
+
+.challenge {
+  // &__Friend{
+  // }
+  &__Choice{
+    display: flex;
+    &--button{
+      background-color:#4FB1DE;
+    }
+  }
+  &__Closebtn{
+    background-color: #46327B;
   }
 }

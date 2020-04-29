@@ -10,9 +10,9 @@ const popular = {
     { title: "Salad dalada", thumbnail: salad },
     { title: "A mix for meat", thumbnail: meat },
     { title: "Pan fried rice makes difference", thumbnail: rice },
-    { title: "Pan fried rice makes difference", thumbnail: rice },
-    { title: "Pan fried rice makes difference", thumbnail: rice },
-    { title: "Pan fried rice makes difference", thumbnail: rice },
+    // { title: "Pan fried rice makes difference", thumbnail: rice },
+    // { title: "Pan fried rice makes difference", thumbnail: rice },
+    // { title: "Pan fried rice makes difference", thumbnail: rice },
   ],
 };
 
