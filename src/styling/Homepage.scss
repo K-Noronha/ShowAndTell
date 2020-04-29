@@ -1,4 +1,3 @@
-
 .activityList {
   margin: 0px 30px;
   &__title {
@@ -28,14 +27,30 @@
 }
 
 .challenge {
-  &__Choice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__Invite {
+    border-top: thin solid black;
+    margin: 0;
+    padding: 20px 20px;
+  }
+  &__Choice {
+    width: 80%;
+    margin: 10px;
     display: flex;
-    &--button{
-      background-color:#4FB1DE;
+    align-items: center;
+    justify-content: space-between;
+    &--image {
+      object-fit: fill;
+    }
+    &--button {
+      background-color: #4fb1de;
     }
   }
-  &__Closebtn{
-    background-color: #46327B;
+  &__Closebtn {
+    background-color: #46327b;
   }
 }
 
