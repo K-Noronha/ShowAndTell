@@ -24,6 +24,8 @@ const CreationCards = (props) => {
         <p>{desc}</p>
         <div className="creation__author">
           <img
+            width="100px"
+            height="100px"
             src={creatorpic}
             alt="profile picture"
             onClick={() => toggleModal("profile")}
@@ -45,7 +47,7 @@ const CreationCards = (props) => {
       </div>
       {showComments ? (
         <div className="commentSection" onClick={() => toggleComments(false)}>
-          Show Comments{" "}
+          Show Comments
         </div>
       ) : (
         <div>

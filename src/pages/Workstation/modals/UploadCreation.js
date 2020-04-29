@@ -1,17 +1,19 @@
 import React from "react";
-import {file} from '../../../assets/fileUpload.png';
-
+import file from "../../../assets/fileUpload.png";
 
 const UploadCreation = (props) => {
   const { toggleModal } = props;
   return (
-    <div className="upload">
-      <h1 className="upload__Title">UPLOAD creation PAGE</h1>
-      <div>
-        <img className="upload__File--image" src={file}></img>
-        <input className="upload__File--description" type="Text"></input>
+    <div className="uploadC">
+      <h1 className="uploadC__Title">Upload your creation</h1>
+      <div className="uploadC__Section">
+        <img className="uploadC__File--image" src={file} />
+        <p>Description </p>
+        <input className="uploadC__File--description" type="Text" />
       </div>
-      <button classname="upload__Bttn" onClick={() => toggleModal(false)}>Upload</button>
+      <button className="uploadC__Bttn" onClick={() => toggleModal(false)}>
+        Upload
+      </button>
     </div>
   );
 };

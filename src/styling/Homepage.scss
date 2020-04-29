@@ -21,8 +21,8 @@
 .activity {
   &__image {
     margin: 0px;
-    width: 315px;
-    height: 215px;
+    width: 250px;
+    height: 190px;
   }
 }
 
@@ -54,21 +54,51 @@
   }
 }
 
-.upload{
-  &__Title{
-    display: flex;
+.upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__Desc {
+    margin: 0;
+    padding: 36px;
+    border-top: black thin solid;
   }
-  &__Option{
+  &__Option {
     display: flex;
-    &--btn{
-      background-color: #46327B;
+    &--btn {
+      background-color: #46327b;
       margin: 30px 20px;
       width: 168px;
       height: 54px;
     }
   }
-  &__Bttn{
-    background-color: #46327B;
+  &__Bttn {
+    background-color: #46327b;
+  }
+}
+
+.uploadC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__Title {
+    margin: 0 0 20px;
+    padding: 16px;
+    border-bottom: black thin solid;
+  }
+  p {
+    margin: 0;
+    padding-top: 10px;
+  }
+  input {
+    height: 26px;
+    width: 239px;
+  }
+  &__Bttn {
+    margin-top: 20px;
+    background-color: #46327b;
   }
 }
 

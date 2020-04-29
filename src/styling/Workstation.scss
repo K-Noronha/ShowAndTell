@@ -66,14 +66,21 @@
 
 .creations {
   display: flex;
+
   flex-direction: column;
   align-items: center;
-  padding: 80px 210px;
+  justify-content: center;
+  padding: 80px 100px;
 }
 
 .creation {
-  padding-bottom: 30px;
+  display: flex;
+
+  flex-direction: column;
+  padding-bottom: 60px;
+
   &__author {
+    width: 500px;
     display: flex;
     justify-content: space-between;
   }
@@ -81,6 +88,7 @@
   &__ratings {
     display: flex;
     justify-content: center;
+    padding: 20px 0;
   }
 }
 .commentSection {
@@ -88,11 +96,11 @@
 }
 .comment {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  img {
-    width: 64px;
-    height: 64px;
+
+  h6 {
+    margin: 16px 10px;
   }
 
   &__submit {
@@ -100,8 +108,9 @@
     justify-content: space-around;
 
     input {
-      height: 32px;
+      height: 26px;
       width: 288px;
+      padding: 5px;
     }
     button {
       height: 32px;
