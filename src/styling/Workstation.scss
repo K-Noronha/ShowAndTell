@@ -4,7 +4,7 @@
 
   &__main {
     padding: 3% 10%;
-    width: calc(100vw - 368px);
+    width: calc(100vw - 200px);
 
     &--divider {
       display: flex;
@@ -65,13 +65,14 @@
 }
 
 .creations {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 80px 210px;
 }
 
 .creation {
+  padding-bottom: 30px;
   &__author {
     display: flex;
     justify-content: space-between;
@@ -91,6 +92,7 @@
   align-items: center;
   img {
     width: 64px;
+    height: 64px;
   }
 
   &__submit {

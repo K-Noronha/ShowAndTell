@@ -1,7 +1,15 @@
 .activityList {
   &__title {
     display: flex;
-    justify-self: space-between;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      align-items: center;
+      img {
+        padding: 0 10px;
+      }
+    }
   }
   &__items {
     display: flex;
@@ -14,4 +22,8 @@
     width: 315px;
     height: 215px;
   }
+}
+
+.homepage {
+  margin: 0 10%;
 }

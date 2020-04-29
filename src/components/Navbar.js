@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import "../styling/Navbar.scss";
-import logo from "../assets/ShowTellLogo.png";
+import logo from "../assets/fulllogo.png";
 
 const Navbar = (props) => {
   const { user } = props;
